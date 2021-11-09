@@ -15,4 +15,9 @@ class ProductModel extends Model
         'name',
         'image'
     ];
+
+    public function amount()
+    {
+        return $this->hasMany(AmountModel::class);
+    }
 }
