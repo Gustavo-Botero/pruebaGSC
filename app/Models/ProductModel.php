@@ -13,7 +13,8 @@ class ProductModel extends Model
 
     protected $fillable = [
         'name',
-        'image'
+        'image',
+        'value'
     ];
 
     public function amount()
