@@ -15,11 +15,11 @@ class CreateAmountTable extends Migration
     {
         Schema::create('amount', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('product_id')->nullable();
-            $table->integer('amount')->nullable();
+            $table->unsignedBigInteger('product_model_id');
+            $table->integer('amount');
             $table->timestamps();
 
-            $table->foreign('product_id')->references('id')->on('product');
+            $table->foreign('product_model_id')->references('id')->on('product');
         });
     }
 
