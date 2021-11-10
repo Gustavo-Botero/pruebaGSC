@@ -1,0 +1,42 @@
+[
+    {
+        "name": "COCA-COLA",
+        "image": "cocacola-lata.jpg",
+        "value": 3.5
+    },
+    {
+        "name": "COCA-COLA ZERO",
+        "image": "cocacola-zero.jpg",
+        "value": 3.5
+    },
+    {
+        "name": "MANZANA POST.",
+        "image": "postobon-manzana-lata.jpg",
+        "value": 3.5
+    },
+    {
+        "name": "AGUA NATURAL",
+        "image": "agua-500ml.jpg",
+        "value": 3.5
+    },
+    {
+        "name": "NARANJA POST.",
+        "image": "naranja-postobon.jpg",
+        "value": 3.5
+    },
+    {
+        "name": "TROPICAL 2L",
+        "image": "tropical-ecuador-botella.jpg",
+        "value": 3.5
+    },
+    {
+        "name": "PIÑA POSTOBON",
+        "image": "postobon-pina.jpg",
+        "value": 3.5
+    },
+    {
+        "name": "COLOMBIANA",
+        "image": "naranja-postobon.jpg",
+        "value": 3.5
+    }
+]
